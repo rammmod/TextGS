@@ -3,6 +3,7 @@
 ## Table of Contents  
 - Task description
 - Assumptions
+- How to run
 
 ## Task description
 
@@ -31,3 +32,6 @@ You need to write two programs:
 When evaluating the completed task, we will first look at the result (correctness of generation / sorting and running time), and secondly, at how the candidate writes the code. Programming language: C#.
 
 ## Assumptions
+
+
+## How to run
