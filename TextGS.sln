@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSorter", "TextSorter\TextSorter.csproj", "{06E5A612-1E0D-468A-90EB-E5E6C3E9999B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextGenerator", "TextGenerator\TextGenerator.csproj", "{3DD76C3C-3627-47BD-90D7-61CF80A1C886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A09CDE36-65A8-473F-AD69-D12932F0476E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E5A612-1E0D-468A-90EB-E5E6C3E9999B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E5A612-1E0D-468A-90EB-E5E6C3E9999B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E5A612-1E0D-468A-90EB-E5E6C3E9999B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E5A612-1E0D-468A-90EB-E5E6C3E9999B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD76C3C-3627-47BD-90D7-61CF80A1C886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD76C3C-3627-47BD-90D7-61CF80A1C886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD76C3C-3627-47BD-90D7-61CF80A1C886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD76C3C-3627-47BD-90D7-61CF80A1C886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09CDE36-65A8-473F-AD69-D12932F0476E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09CDE36-65A8-473F-AD69-D12932F0476E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09CDE36-65A8-473F-AD69-D12932F0476E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09CDE36-65A8-473F-AD69-D12932F0476E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89A25695-70CC-454E-8569-1FF35267A2C5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TextGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:/Repos/TextGS/generated_file.txt\" \"D:/Repos/TextGS/dictionary.txt\" 100"
+    }
+  }
+}

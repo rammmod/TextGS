@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TextSorter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"3\" \"D:/Repos/TextGS/Chunks/\" \"D:/Repos/TextGS/generated_file.txt\" \"D:/Repos/TextGS/sorted_file.txt\""
+    }
+  }
+}
