@@ -4,6 +4,8 @@
 - Task description
 - Assumptions
 - How to run
+- Ensureness of sentences repeatability
+- String transformation
 
 ## Task description
 
