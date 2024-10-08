@@ -3,9 +3,9 @@
 ## Table of Contents  
 - Task description
 - Assumptions
-- How to run
 - Ensureness of sentences repeatability
 - String transformation
+- How to run
 
 ## Task description
 
