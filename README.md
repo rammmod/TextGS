@@ -51,14 +51,14 @@ Dictionary of max size `1024` is created in order to store sentences which could
 ## <a name="how-to-run">How to run</a>
 1. Text Generator: `dotnet run -c Release --project .\TextGenerator.csproj -- "D:/Repos/TextGS/generated_file.txt" "D:/Repos/TextGS/dictionary.txt" 100`, where
 ```
-arg[0] -> generated file path
-arg[1] -> dictionary path
-arg[2] -> generated file size
+arg[0] -> generated file path ("D:/Repos/TextGS/generated_file.txt")
+arg[1] -> dictionary path ("D:/Repos/TextGS/dictionary.txt")
+arg[2] -> generated file size Gb (100)
 ```
 2. Text Sorter: `dotnet run -c Release --project .\TextSorter.csproj -- 3 "D:/Repos/TextGS/Chunks/" "D:/Repos/TextGS/generated_file.txt" "D:/Repos/TextGS/sorted_file.txt"`, where
 ```
-arg[0] -> chunk size
-arg[1] -> chunk files path
-arg[2] -> generated file path
-arg[3] -> output sorted file path
+arg[0] -> chunk size Gb (3)
+arg[1] -> chunk files path ("D:/Repos/TextGS/Chunks/")
+arg[2] -> generated file path ("D:/Repos/TextGS/generated_file.txt")
+arg[3] -> output sorted file path ("D:/Repos/TextGS/sorted_file.txt")
 ```
