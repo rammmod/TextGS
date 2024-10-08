@@ -39,7 +39,7 @@ When evaluating the completed task, we will first look at the result (correctnes
 2. Encoding of the generated file is UTF8.
 3. Dictionary for the words to make sentences (String) is defined in a separate file (`dictionary.txt` in the root folder).
 4. Sentence max length is 16 words.
-5. First word of sentence starts with capital letter.
+5. First word of each sentence starts with capital letter.
 6. Numbers (Number) are positive integers.
 
 ## <a name="ensureness-of-sentences-repeatability">Ensureness of sentences repeatability</a>
