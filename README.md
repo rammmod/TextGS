@@ -37,7 +37,7 @@ When evaluating the completed task, we will first look at the result (correctnes
 ## <a name="assumptions">Assumptions</a>
 1. Generated file size and chunk sizes should be set in Gb.
 2. Encoding of the generated file is UTF8.
-3. Dictionary for the words to make sentences (String) is defined in a separate file.
+3. Dictionary for the words to make sentences (String) is defined in a separate file (`dictionary.txt` in the root folder).
 4. Sentence max length is 16 words.
 5. First word of sentence starts with capital letter.
 6. Numbers (Number) are positive integers.
