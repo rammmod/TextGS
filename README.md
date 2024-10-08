@@ -43,10 +43,10 @@ When evaluating the completed task, we will first look at the result (correctnes
 6. Numbers (Number) are positive integers.
 
 ## Ensureness of sentences repeatability
-
+Dictionary of max size 1024 is created in order to store sentences which could be repeated. As assumed the size of the generated file ~100Gb, the parameters are tuned in the way to ensure repeatability of the sentences. For smaller size of the generated file the parameters should be tuned in different way (`_repeatSpreading` parameter in `WordsGenerator.cs`).
 
 ## String transformation
-`Number. String` is not a good format to compare. Thus it is transformed to `String PaddedNumber` format to ensure efficient comparison. For instance, if the string before transformation is `32. Cherry is the best`, after transformation it becomes `Cherry is the best 0000000032`. Padding is defined based on integer digits count. 
+`Number. String` is not a good format to compare. Thus it is transformed to `String PaddedNumber` format to ensure more efficient comparison. For instance, if the string before transformation is `32. Cherry is the best`, after transformation it becomes `Cherry is the best 0000000032`. Padding is defined based on integer digits count. 
 
 ## How to run
 1. Text Generator: `dotnet run -c Release --project .\TextGenerator.csproj -- "D:/Repos/TextGS/generated_file.txt" "D:/Repos/TextGS/dictionary.txt" 100`, where
