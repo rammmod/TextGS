@@ -29,13 +29,16 @@ Both parts can be repeated within the file. You need to get another file as outp
 You need to write two programs:
 1. A utility for creating a test file of a given size. The result of the work should be a text file of the type described above. There must be some number of lines with the same String part.
 2. The actual sorter. An important point, the file can be very large. The size of ~100Gb will be used for testing.
+
 When evaluating the completed task, we will first look at the result (correctness of generation / sorting and running time), and secondly, at how the candidate writes the code. Programming language: C#.
 
 ## Assumptions
-1. Generated file size and chunk sizes should be defined in Gb.
-2. Generated file's encoding should be UTF8.
-3. Dictionary for the words to make sentences (String) is defined in the separate file, one word per row.
-4. Numbers are positive integers.
+1. Generated file size and chunk sizes should be set in Gb.
+2. Encoding of the generated file is UTF8.
+3. Dictionary for the words to make sentences (String) is defined in a separate file.
+4. Sentence max length is 16 words.
+5. First word of sentence starts with capital letter.
+6. Numbers (Number) are positive integers.
 
 ## How to run
 1. Text Generator: `dotnet run -c Release --project .\TextGenerator.csproj -- "D:/Repos/TextGS/generated_file.txt" "D:/Repos/TextGS/dictionary.txt" 100`, where
